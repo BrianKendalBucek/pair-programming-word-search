@@ -1,3 +1,5 @@
+//Pair programmed with Megan Honey
+
 const verticalArray = function(letters) {
     let newArr = [];
     let index = 0;
@@ -22,6 +24,7 @@ const wordSearch = (letters, word) => {
     const horizontalJoin = letters.map(ls => ls.join(''))
 
     for (l of horizontalJoin) {
+
         if (l.includes(word)) return true
     }
 
